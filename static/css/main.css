@@ -155,9 +155,10 @@ div.player-info{
 .player-body{
   /*position:absolute;
   padding-left: 190px;*/
+  display: flex;
   z-index:0;
   width:14.5vw;
-  height:56.5vh;
+  /*height:56.5vh;*/
 }
 
 .player-face{
