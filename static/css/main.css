@@ -258,24 +258,24 @@ div.player-info{
     box-shadow: 1.5vh 1vh 0 #FBC638;
 }
 
-.wrapper-player1 .cta span:nth-child(2) {
+.wrapper-player1 .cta div {
     transition: 0.5s;
     margin-right: 0px;
 }
 
 
-.wrapper-player1 .cta:hover  span:nth-child(2) {
+.wrapper-player1 .cta:hover  div {
     transition: 0.5s;
     margin-right: 3vw;
 }
 
-.wrapper-player2 .cta span:nth-child(1) {
+.wrapper-player2 .cta div {
     transition: 0.5s;
     margin-right: 0px;
 }
 
 
-.wrapper-player2 .cta:hover  span:nth-child(1) {
+.wrapper-player2 .cta:hover  div {
     transition: 0.5s;
     /*width:3.5vw;
     height:2vh;
@@ -291,19 +291,28 @@ div.player-info{
 
 }
 
+.wrapper-player1 .svg-wrapper {
+  transform: skewX(15deg)
+}
+
+.wrapper-player2 .svg-wrapper {
+  transform: skewX(-15deg);
+
+}
+
 .span-info{
   transform: skewX(-15deg);
   margin-left: 1vw;
   font-family: 'brave-eightyone';
 }
 
-.wrapper-player1 span:nth-child(2) {
+.wrapper-player1 div {
   width: 0.5vw;
   margin-left: 1vw;
   position: relative;
 }
 
-.wrapper-player2 span:nth-child(1) {
+.wrapper-player2 div {
   /*width: 0.5vw;
   margin-left: 1vw;*/
   position: relative;
