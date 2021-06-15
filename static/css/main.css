@@ -357,19 +357,19 @@ text.one {
 .wrapper-player2 text.one {
     font-size: 0.8vw;
     transition: 0.4s;
-    transform: translateX(-70%);
+    transform: translateX(-250%);
 }
 
 .wrapper-player2 text.two {
     font-size: 0.8vw;
     transition: 0.4s;
-    transform: translateX(-50%);
+    transform: translateX(60%);
 }
 
 .wrapper-player2 text.three {
     font-size: 0.8vw;
     transition: 0.5s;
-    transform: translateX(110%);
+    transform: translateX(405%);
 }
 
 text.two {
