@@ -233,7 +233,7 @@ div.player-info{
   transform: skewX(-15deg);
   align-items: center;
   flex-direction: row;
-  width: 30%;
+  width: 17%;
 }
 
 .wrapper-player2 .cta{
@@ -249,7 +249,7 @@ div.player-info{
   transform: skewX(15deg);
   align-items: center;
   flex-direction: row;
-  width: 30%;
+  width: 17%;
 }
 
 
@@ -260,7 +260,7 @@ div.player-info{
 .cta:hover {
     transition: 0.5s;
     box-shadow: 1.5vh 1vh 0 #FBC638;
-    width: 50%;
+    width: 30%;
 }
 
 .wrapper-player1 .cta div {
@@ -335,7 +335,7 @@ div.player-info{
 }
 
   /*outline: 1px solid red*/
-}
+
 
 .wrapper-player2 svg{
   width:10em;
